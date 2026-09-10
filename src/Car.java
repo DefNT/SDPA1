@@ -16,4 +16,12 @@ public class Car {
     public void setSeats(int seats) {
         this.seats = seats;
     }
+
+    @Override
+    public String toString(){
+        return "Car [" + "Engine='" + engine + '\'' +
+                ", Transmission='" + transmission + '\'' +
+                ", Interior='" + interior + '\'' +
+                ", Seats=" + seats + ']';
+    }
 }
